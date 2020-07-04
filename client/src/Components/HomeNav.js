@@ -49,7 +49,7 @@ const HomeNav = (props) => {
             <Navbar.Brand href="/home">Meals</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
+          <Nav className="mr-auto">
               <div className="mr-2 mt-2">
               Signed in as :
               </div>
