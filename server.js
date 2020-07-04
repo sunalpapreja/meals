@@ -1,6 +1,7 @@
 const express = require('express');
 const router = require('./Routes/Router');
 const bodyParser = require('body-parser');
+var path = require('path');
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -16,7 +17,7 @@ if(process.env.NODE_ENV === "production")
 }
 else
 {
-    app.use(express.static('Client/build'));
+    app.use(express.static('client/build'));
 }
 
 
