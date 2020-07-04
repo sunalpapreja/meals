@@ -14,7 +14,7 @@ const Welcome = (props) => {
 
     return (
         <div>
-            <Navbar/>
+            <Navbar {...props}/>
         </div>
     )
 }

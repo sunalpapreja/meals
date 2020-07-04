@@ -88,7 +88,7 @@ const onSignup = (e)=>{
     
   return (
         <div>
-            <Navbar/>
+            <Navbar act="signup" {...props}/>
             <div style={{width:"65vh"}}>
     <form className="p-4">
     <div className="form-group row">

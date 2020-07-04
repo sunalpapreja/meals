@@ -70,7 +70,7 @@ const Login = (props) => {
 
     return (
         <div>
-            <Navbar/>
+            <Navbar act="login" {...props}/>
             <div className=" border-primary" style={{width:"60vh"}}>
     <form className="p-4">
   <div className="form-group">
